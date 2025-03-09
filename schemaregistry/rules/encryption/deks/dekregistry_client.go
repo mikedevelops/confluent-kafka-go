@@ -18,9 +18,9 @@ package deks
 
 import (
 	"encoding/base64"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/cache"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/internal"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/cache"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/internal"
 	"net/url"
 	"strings"
 	"sync"

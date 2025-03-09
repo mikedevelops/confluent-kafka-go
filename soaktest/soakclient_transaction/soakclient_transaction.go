@@ -28,7 +28,7 @@ import (
 
 	soaktest "github.com/confluentinc/confluent-kafka-go/soaktest/v2"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
+	"github.com/mikedevelops/confluent-kafka-go/v2/kafka"
 )
 
 const producerTransactionCommitSucceed = "producer.transaction.commit.succeed"

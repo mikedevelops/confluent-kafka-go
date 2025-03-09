@@ -26,11 +26,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/jsonata"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde/avrov2"
+	"github.com/mikedevelops/confluent-kafka-go/v2/kafka"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/jsonata"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde/avrov2"
 )
 
 func main() {

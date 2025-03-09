@@ -18,7 +18,7 @@ package schemaregistry
 
 import (
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/internal"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/internal"
 )
 
 // Config is used to pass multiple configuration options to the Schema Registry client.

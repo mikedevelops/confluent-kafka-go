@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
+	"github.com/mikedevelops/confluent-kafka-go/v2/kafka"
 	"github.com/gdamore/tcell"
 )
 

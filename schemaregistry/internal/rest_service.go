@@ -36,7 +36,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rest"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rest"
 )
 
 // Relative Confluent Schema Registry REST API endpoints as described in the Confluent documentation

@@ -23,7 +23,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/credentials/stscreds"
 	"github.com/aws/aws-sdk-go-v2/service/sts"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption"
 	"github.com/tink-crypto/tink-go/v2/core/registry"
 	"os"
 	"strings"

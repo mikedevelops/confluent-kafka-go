@@ -27,7 +27,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
+	"github.com/mikedevelops/confluent-kafka-go/v2/kafka"
 )
 
 // Set to false to disable visualization, useful for troubleshooting.

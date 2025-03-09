@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/awskms"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/azurekms"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/gcpkms"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/hcvault"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/localkms"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde/jsonschema"
+	"github.com/mikedevelops/confluent-kafka-go/v2/kafka"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/awskms"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/azurekms"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/gcpkms"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/hcvault"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/localkms"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde/jsonschema"
 )
 
 func main() {

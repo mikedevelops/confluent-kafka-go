@@ -17,7 +17,7 @@
 package hcvault
 
 import (
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption"
 	"github.com/tink-crypto/tink-go/v2/core/registry"
 	"os"
 )

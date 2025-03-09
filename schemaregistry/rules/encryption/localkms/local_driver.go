@@ -19,7 +19,7 @@ package localkms
 import (
 	"errors"
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption"
 	"github.com/tink-crypto/tink-go/v2/aead"
 	"github.com/tink-crypto/tink-go/v2/core/registry"
 	"github.com/tink-crypto/tink-go/v2/subtle"

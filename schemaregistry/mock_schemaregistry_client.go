@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/internal"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/internal"
 )
 
 const noSubject = ""

@@ -17,8 +17,8 @@
 package deks
 
 import (
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rest"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rest"
 	"net/url"
 	"sync"
 	"time"

@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
 )
 
 // Type represents the type of Serde

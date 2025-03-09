@@ -17,7 +17,7 @@
 package avrov2
 
 import (
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde"
 )
 
 // SerializerConfig is used to pass multiple configuration options to the serializers.

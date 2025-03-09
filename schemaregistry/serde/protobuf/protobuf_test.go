@@ -20,17 +20,17 @@ import (
 	"errors"
 	"testing"
 
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/cel"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/awskms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/azurekms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/gcpkms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/hcvault"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/localkms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/jsonata"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/cel"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/awskms"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/azurekms"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/gcpkms"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/hcvault"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption/localkms"
+	_ "github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/jsonata"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/test"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/test"
 	"google.golang.org/protobuf/proto"
 )
 

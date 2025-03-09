@@ -28,11 +28,11 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/cache"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/confluent"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/confluent/types"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/cache"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/confluent"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/confluent/types"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde"
 	protoV1 "github.com/golang/protobuf/proto"
 	"github.com/jhump/protoreflect/desc"
 	"github.com/jhump/protoreflect/desc/protoparse"

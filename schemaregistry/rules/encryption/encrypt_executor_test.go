@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry"
 )
 
 func TestFieldEncryptionExecutor_Configure(t *testing.T) {

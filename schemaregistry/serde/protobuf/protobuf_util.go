@@ -17,8 +17,8 @@
 package protobuf
 
 import (
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/confluent"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/confluent"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/serde"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"reflect"

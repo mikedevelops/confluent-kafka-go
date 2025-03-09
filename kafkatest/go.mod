@@ -4,11 +4,11 @@ go 1.21
 
 toolchain go1.21.0
 
-replace github.com/confluentinc/confluent-kafka-go/v2 => ../
+replace github.com/mikedevelops/confluent-kafka-go/v2 => ../
 
 require (
 	github.com/alecthomas/kingpin v2.2.6+incompatible
-	github.com/confluentinc/confluent-kafka-go/v2 v2.8.0
+	github.com/mikedevelops/confluent-kafka-go/v2 v2.8.0
 )
 
 require (

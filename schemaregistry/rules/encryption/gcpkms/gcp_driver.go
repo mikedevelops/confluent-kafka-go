@@ -19,7 +19,7 @@ package gcpkms
 import (
 	"context"
 	"encoding/json"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption"
+	"github.com/mikedevelops/confluent-kafka-go/v2/schemaregistry/rules/encryption"
 	kms "github.com/tink-crypto/tink-go-gcpkms/v2/integration/gcpkms"
 	"github.com/tink-crypto/tink-go/v2/core/registry"
 	"google.golang.org/api/option"
