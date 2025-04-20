@@ -306,6 +306,7 @@ func (p *Producer) produce(msg *Message, msgFlags int, deliveryChan chan Event) 
 // api.version.request=true, and broker >= 0.11.0.0.
 // Returns an error if message could not be enqueued.
 func (p *Producer) Produce(msg *Message, deliveryChan chan Event) error {
+	fmt.Println("PRODUCE!")
 	err := p.verifyClient()
 	if err != nil {
 		return err
